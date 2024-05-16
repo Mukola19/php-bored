@@ -1,0 +1,13 @@
+
+/vendor
+.env
+
+vendor
+
+# IDEs
+.idea/
+.vscode/
+
+# Storage files
+storage/*
+

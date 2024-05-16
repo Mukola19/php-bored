@@ -1,0 +1,17 @@
+{
+  "name": "php/borow",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "type": "project",
+  "require-dev": {
+  },
+  "autoload": {
+    "files": [
+      "app/Core/Helpers/custom_helpers.php"
+    ],
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
