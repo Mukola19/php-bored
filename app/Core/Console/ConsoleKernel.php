@@ -40,8 +40,10 @@ class ConsoleKernel
 
             $command->handle();
 
-        } catch (Exception $exception) {
+        } catch (\Exception $exception) {
             $output->printError(print_r($exception->getMessage(), true));
+        } catch (\Throwable $exception) {
+            $output->printError(print_r($exception, true));
         }
     }
 
